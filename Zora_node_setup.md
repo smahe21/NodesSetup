@@ -7,14 +7,14 @@
 
 **VPS Requirements**: Start by ensuring your VPS is equipped with a minimum of 
 > 8 GB RAM - 16 GB
+
 > 100 GB - 200 Gb of NVMe space
 
-**Installing Dependencies**:
-	
+**Installing Dependencies**
+   
 
-    sudo apt install curl build-essential git screen jq pkg-config libssl-dev libclang-dev ca-certificates gnupg lsb-release -y
-
-	sudo apt-get update sudo apt-get install ca-certificates 
+	sudo apt-get update 
+	sudo apt install curl build-essential git screen jq pkg-config libssl-dev libclang-dev ca-certificates gnupg lsb-release -y 
     
     curl gnupg sudo install -m 0755 -d /etc/apt/keyrings 
     
