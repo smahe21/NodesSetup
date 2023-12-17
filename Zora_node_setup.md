@@ -51,7 +51,7 @@
 
     
    Replace OP_NODE_L1_ETH_RPC ETH rpc url copied from Alchemy.  
-   >    OP_NODE_L1_ETH_RPC=https://eth-mainnet.g.alchemy.com/v2/**REPLACE_WITH_YOUR_KEY**
+   >    OP_NODE_L1_ETH_RPC=https://eth-mainnet.g.alchemy.com/v2/REPLACE_WITH_YOUR_KEY
 
  - Save File by pressing ctrl + x 
  - Type `Y` 
