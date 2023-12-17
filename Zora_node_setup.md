@@ -46,14 +46,20 @@
  
     export CONDUIT_NETWORK=zora-mainnet-0"
     ./download-config.py zora-mainnet-0
+    cp .env.example .env
     nano .env
-    OP_NODE_L1_ETH_RPC=https://eth-mainnet.g.alchemy.com/v2/**REPLACE_WITH_YOUR_KEY**
+
     
-    docker compose up --build
-    
+   Replace OP_NODE_L1_ETH_RPC ETH rpc url copied from Alchemy.  
+   >    OP_NODE_L1_ETH_RPC=https://eth-mainnet.g.alchemy.com/v2/**REPLACE_WITH_YOUR_KEY**
+
+ - Save File by pressing ctrl + x 
+ - Type `Y` 
+ - Enter
+
+### Start Zora Node
+
+    docker compose up --build        
     ctrl + a + d
-
-
-
 
 > Follow [ShineCryptic](https://twitter.com/ShineCryptic).
