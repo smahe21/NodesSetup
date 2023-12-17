@@ -6,8 +6,8 @@
 **Introduction**: Discover how to contribute to the Zora Network by setting up your own node. This guide will take you through each step, ensuring a smooth setup.
 
 **VPS Requirements**: Start by ensuring your VPS is equipped with a minimum of 
->8 GB RAM - 16 GB
-100 GB - 200 Gb of NVMe space
+> 8 GB RAM - 16 GB
+> 100 GB - 200 Gb of NVMe space
 
 **Installing Dependencies**:
 	
@@ -22,7 +22,7 @@
     
     sudo chmod a+r /etc/apt/keyrings/docker.gpg 
             
-    echo \ "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \ $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
+    echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \ $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null 
     
     sudo apt-get update 
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
